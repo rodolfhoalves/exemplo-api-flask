@@ -20,7 +20,6 @@ lista_de_alunos = [
 ]
 
 
-
 @app.route("/")
 def main():
     return jsonify({'status': 'sucesso', 'mensagem': 'api de cadastro de alunos'})
